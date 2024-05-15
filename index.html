@@ -11,13 +11,13 @@
         <h1>Marc Kiefer</h1>
         <nav>
             <ul>
-                <li><a href="#about">Über mich</a></li>
+                <li><a href="#about" class="button">Über mich</a></li>
                 <h1> Ich habe im Mai 2024 meine Studium zum Geprüften Webentwickler abgeschlossen und bin eine junge Engagierte Person die auf der Suche nach neuen
                     Herausforderungen ist die meinen Horizont erweitern und mich und meine Fähigkeiten auf die Probestellen.
                 </h1>
-                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#projects" class="button">Projekte</a></li>
                 <h2> Meine Bisherigen Projekte und deren Github Repository sehen sie in der Unteren Liste aufgezeigt. </h2>
-                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#contact"class="button">Kontakt</a></li>
                 <h3> Sie erreichen mich über: 
                     Email: marc-kiefer93@web.de
                     Github: Morbid93
@@ -46,22 +46,21 @@
                 <p>Beschreibung des Projekts. <a href="https://github.com/dein-username/projekt2">GitHub Repository</a></p>
             </div>
             <!-- Weitere Projekte hier -->
-        </section>
-        <section id="contact">
-            <h2>Kontakt</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br><br>
-                <label for="message">Nachricht:</label>
-                <textarea id="message" name="message" required></textarea>
-                <br><br>
-                <input type="submit" value="Absenden">
-            </form>
-        </section>
+            <section id="contact">
+                <h2>Kontakt</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Max Mustermann">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="max@example.com">
+                    <br><br>
+                    <label for="message">Nachricht:</label>
+                    <textarea id="message" name="message" required placeholder="Ihre Nachricht..."></textarea>
+                    <br><br>
+                    <input type="submit" value="Absenden">
+                </form>
+            </section>
     </main>
     <footer>
         <p>&copy; Marc Kiefer 2024</p>
